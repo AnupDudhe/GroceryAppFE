@@ -6,6 +6,10 @@ Follow these steps to set up and run the project locally.
 
 ### ✅ Prerequisites  
 Ensure you have the following installed on your system:  
+in .env file of frontend code make following changes :-
+```
+REACT_APP_API_URL=http://webserverpublicIP:5000
+```
 - **[Node.js](https://nodejs.org/)** (LTS version recommended)  
 - **npm** (Comes with Node.js)  
 ### install node js 
