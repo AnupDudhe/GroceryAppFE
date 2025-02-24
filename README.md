@@ -27,5 +27,7 @@ sudo apt install -y nodejs
    cd GroceryAppFE
    npm install
    npm start
-
+### To build your frontend use following comman
+```
    npm run build //to build you fe
+```
