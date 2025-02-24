@@ -22,4 +22,6 @@ sudo apt install -y nodejs
    git clone https://github.com/your-username/GroceryAppFE.git
    cd GroceryAppFE
    npm install
-   npm run build
+   npm start
+
+   npm run build //to build you fe
