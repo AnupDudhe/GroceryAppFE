@@ -20,14 +20,22 @@ sudo apt install -y nodejs
 
 
 
-### 📥 Installation  
+### 📥 Installation 
 1. **Clone the repository:**  
    ```sh
-   git clone https://github.com/your-username/GroceryAppFE.git
+   git clone https://github.com/your-username/GroceryAppFE.git    
    cd GroceryAppFE
    npm install
+   npm install dotenv
    npm start
 ### To build your frontend use following comman
 ```
    npm run build //to build you fe
+```
+### lets get our front production grade ready on server
+```
+npm install
+npm run build
+pm2 list
+pm2 serve build/ 3000 --name "grocery-frontend" --spa
 ```
