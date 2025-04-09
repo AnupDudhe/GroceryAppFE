@@ -39,3 +39,7 @@ npm run build
 pm2 list
 pm2 serve build/ 3000 --name "grocery-frontend" --spa
 ```
+
+### frontend deployment ref :- 
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/4254a14d-43ee-4b91-97ab-6682d0f3cac8" />
+
